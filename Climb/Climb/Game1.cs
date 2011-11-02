@@ -49,7 +49,7 @@ namespace Climb
             menuScreen = new MenuScreen(new EventHandler(MenuScreenEvent));
             gameScreen = new GameScreen(new EventHandler(GameScreenEvent),this.Content);
             optionsScreen = new OptionsScreen(new EventHandler(OptionsScreenEvent), this.graphics);
-            highscoreScreen = new HighScoreScreen(new EventHandler(HighScoreScreenEvent), this.Content, CUtil.Config);
+            highscoreScreen = new HighScoreScreen(new EventHandler(HighScoreScreenEvent), this.Content);
             currentScreen = menuScreen;
 
             ShapeGenerator.SetGraphicsDevice(this.GraphicsDevice);
@@ -92,7 +92,9 @@ namespace Climb
             ///////////////////////////////////////////////
             
             graphics.ApplyChanges();
-            
+
+            MySerializer.SaveConfig();
+
             base.Initialize();
         }
 

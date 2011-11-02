@@ -1,4 +1,8 @@
-﻿using System;
+﻿/**
+ * By: Tyler Young
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +14,6 @@ namespace Climb
 {
     /// <summary>
     /// This randomly generates arcing blocks
-    /// By: Tyler Young
     /// </summary>
     class ArcingBlockManager
     {

@@ -22,10 +22,7 @@ namespace Climb
     {
         LayeredBackground lbBackground;
         DanLabel dlHighscoreText;
-
-        // The config stores the high scores.
-        MyConfig config;
-
+        
 
         /// <summary>
         /// Create a new high score screen.
@@ -33,11 +30,9 @@ namespace Climb
         /// <param name="theScreenEvent"></param>
         /// <param name="theContent"></param>
         /// <param name="myConfig">The high scores are stored in the config object.</param>
-        public HighScoreScreen(EventHandler theScreenEvent, ContentManager theContent, MyConfig myConfig)
+        public HighScoreScreen(EventHandler theScreenEvent, ContentManager theContent)
             : base(theScreenEvent)
         {
-            config = myConfig;
-
             lbBackground = new LayeredBackground();
 
             dlHighscoreText = new DanLabel(600, 100, 200, 400);
@@ -97,12 +92,12 @@ namespace Climb
         public void SetHighScoreLabel()
         {
             string text = "";
-            for (int i = 0; i < config.Highscores.Length; i++)
+            for (int i = 0; i < CUtil.Config.Highscores.Length; i++)
             {
-                if (config.Highscores[i] == 0)
+                if (CUtil.Config.Highscores[i] == 0)
                     text += "---\n";
                 else
-                    text += "" + config.Highscores[i] + "\n";
+                    text += "" + CUtil.Config.Highscores[i] + "\n";
             }
 
             dlHighscoreText.Text = text;

@@ -28,6 +28,9 @@ namespace Climb.Util
         public static ContentManager ContentManager;
         public static GraphicsDeviceManager Graphics;
         public static Matrix ScaleMatrix;
+        public static bool IsWindowed;
+        public static bool IsLetterBoxed;
+
 
         // This is the magic int that says what the preferred resolution of the game is.
         // (where everything is 1 to 1 with the images and no scaling is applied)
@@ -127,49 +130,12 @@ namespace Climb.Util
 
         public static void EnableLetterBox()
         {
+            IsLetterBoxed = true;
             SetResolution(SCREEN_WIDTH_PREFMAX, SCREEN_HEIGHT_PREFMAX);
             Graphics.IsFullScreen = true;
             Graphics.ApplyChanges();
         }
 
-        // REVISIT needs to be added to save options and highscores.
-        public static void SaveConfig()
-        {
-            //config.magic = 5;
-
-            //// Open a storage container.
-            //IAsyncResult result =
-            //    device.BeginOpenContainer("StorageDemo", null, null);
-
-            //// Wait for the WaitHandle to become signaled.
-            //result.AsyncWaitHandle.WaitOne();
-
-            //StorageContainer container = device.EndOpenContainer(result);
-
-            //// Close the wait handle.
-            //result.AsyncWaitHandle.Close();
-
-            //string filename = "savegame.sav";
-
-            //// Check to see whether the save exists.
-            //if (container.FileExists(filename))
-            //    // Delete it so that we can create one fresh.
-            //    container.DeleteFile(filename);
-
-            //// Create the file.
-            //Stream stream = container.CreateFile(filename);
-
-            //// Convert the object to XML data and put it in the stream.
-            //XmlSerializer serializer = new XmlSerializer(typeof(MyConfig));
-
-            //serializer.Serialize(stream, config;
-
-            //// Close the file.
-            //stream.Close();
-
-            //// Dispose the container, to commit changes.
-            //container.Dispose();
-        }
 
         /// <summary>
         /// Update the list of high scores.
@@ -181,12 +147,21 @@ namespace Climb.Util
 
             for (int i = 0; i < Config.Highscores.Length; i++)
             {
-                if (Config.Highscores[i] < score)
+                if (Config.Highscores[i] < score) // If we find the highest slot.
                 {
+                    // Start at the end of the list and push everything back
+                    for (int j = Config.Highscores.Length - 1; j != i; j--)
+                    {
+                        Config.Highscores[j] = Config.Highscores[j - 1];
+                    }
+
                     Config.Highscores[i] = (int)score;
+                    MySerializer.SaveConfig();
                     return;
                 }
             }
+
+            
         }
     }
 
@@ -229,6 +204,10 @@ namespace Climb.Util
         public static string [] TestHeroSwap = { "Sprites/pixeldude", "Sprites/pixeldude2" };
         public static int [] TestHeroSwapOrder = { 0, 1 };
     }
+
+
+
+  
 
 }
 

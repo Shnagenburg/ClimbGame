@@ -213,6 +213,10 @@ namespace Climb
 
         }
 
+        /// <summary>
+        /// Tests for collision with the hero
+        /// </summary>
+        /// <param name="blocks"></param>
         private void CheckCollision(List<Sprite> blocks)
         {
             // Record Barry's old Pos
@@ -256,7 +260,7 @@ namespace Climb
                         }
                     }
 
-                    if (BoundingBox.Right >= sp.BoundingBox.Left && OldBox.Right <= sp.OldBox.Left + 1)//running from the right
+                    else if (BoundingBox.Right >= sp.BoundingBox.Left && OldBox.Right <= sp.OldBox.Left + 1)//running from the right
                     {
                         if (mSpeed.X > 0)
                             mSpeed.X = 0;

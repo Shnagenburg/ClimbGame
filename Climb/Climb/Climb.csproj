@@ -138,6 +138,7 @@
     <Compile Include="Menu\MenuItem.cs" />
     <Compile Include="Screens\MenuScreen.cs" />
     <Compile Include="Util\MyConfig.cs" />
+    <Compile Include="Util\MySerializer.cs" />
     <Compile Include="Util\Options.cs" />
     <Compile Include="Screens\OptionsScreen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

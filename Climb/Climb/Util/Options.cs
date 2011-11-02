@@ -12,7 +12,7 @@ namespace Climb
     /// <summary>
     /// The options are various parameters for the game.
     /// </summary>
-    static class Options
+    public static class Options
     {
         public static bool IsMusicOn = false;
         public static bool IsSFXOn = false;

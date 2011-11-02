@@ -4,14 +4,6 @@ c:\users\daniel\documents\visual studio 2010\Projects\Climb\Climb\Climb\obj\x86\
 c:\users\daniel\documents\visual studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 c:\users\daniel\documents\visual studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\Climb.exe
 c:\users\daniel\documents\visual studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\Climb.pdb
-c:\users\daniel\documents\visual studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\pngimage.xnb
-c:\users\daniel\documents\visual studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\climbtitle.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\pixeldude.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\block.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\duskbg.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\duskclouds.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\block2.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\ground.xnb
 C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\verdana.xnb
 C:\Users\Wildcat\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\pngimage.xnb
 C:\Users\Wildcat\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\climbtitle.xnb
@@ -28,12 +20,6 @@ C:\Users\Wildcat\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\obj\x86
 C:\Users\Wildcat\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Wildcat\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\Climb.exe
 C:\Users\Wildcat\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\Climb.pdb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\cloudsspace.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\space.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\cloudsthree.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\nightsky.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\pixeldude2.xnb
-C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\nightskyfix.xnb
 C:\Users\Wildcat\Desktop\Climb\Climb\Climb\bin\x86\Debug\Content\pngimage.xnb
 C:\Users\Wildcat\Desktop\Climb\Climb\Climb\bin\x86\Debug\Content\climbtitle.xnb
 C:\Users\Wildcat\Desktop\Climb\Climb\Climb\bin\x86\Debug\Content\pixeldude.xnb
@@ -335,3 +321,36 @@ C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb7-8@152loadrealfinal\
 C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb7-8@152loadrealfinal\Climb\Climb\bin\x86\Debug\Content\Audio\Sun and My Synth LOOPY.xnb
 C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb7-8@152loadrealfinal\Climb\Climb\bin\x86\Debug\Content\Audio\Sun and My Synth LOOPY.wma
 C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb7-8@152loadrealfinal\Climb\Climb\bin\x86\Debug\Content\Audio\jumpsound.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\pngimage.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\climbtitle.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\pixeldude.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\block.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Clouds\duskclouds.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskbg.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\block2.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\ground.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudsspace.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\space.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudsthree.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\nightsky.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\pixeldude2.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\nightskyfix.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\daysky.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\aquasky.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\dayxxxsky.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\dusksky.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\hellsky.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\nightsky.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudssuper.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskskysupertrans.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskskysupertrans2.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\dusksky1280x960.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\smallcloud.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\space_basic.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\orange_basic.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Audio\Sun and My Synth LOOPY.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Audio\jumpsound.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Audio\Sun and My Synth LOOPY.wma
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\Climb.Form1.resources
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\obj\x86\Debug\GenerateResource.write.1.tlog

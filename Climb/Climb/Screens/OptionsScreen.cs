@@ -13,6 +13,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Input;
 
 using Climb.Util;
+
 namespace Climb
 {
     /// <summary>
@@ -21,7 +22,7 @@ namespace Climb
     class OptionsScreen : Screen
     {
         LayeredBackground lbBackground;
-        Menu mMainMenu, mMusicMenu, mHeroMenu, mResolutionMenu, mCurrentMenu;
+        Menu mMainMenu, mMusicMenu, mSFXMenu, mHeroMenu, mResolutionMenu, mCurrentMenu;
         GraphicsDeviceManager graphics;
 
         /// <summary>
@@ -37,7 +38,8 @@ namespace Climb
             lbBackground = new LayeredBackground();
             mMainMenu = new Menu(new Vector2(50, 100));
             mMusicMenu = new Menu(new Vector2(250, 100), mMainMenu, new EventHandler(BackOutEvent));
-            mHeroMenu = new Menu(new Vector2(250, 100), mMainMenu, new EventHandler(BackOutEvent));
+            mSFXMenu = new Menu (new Vector2(350, 100), mMainMenu, new EventHandler(BackOutEvent));
+            mHeroMenu = new Menu(new Vector2(450, 100), mMainMenu, new EventHandler(BackOutEvent));
             mResolutionMenu = new Menu(new Vector2(250, 100), mMainMenu, new EventHandler(BackOutEvent));
         }
 
@@ -51,8 +53,9 @@ namespace Climb
             lbBackground.LoadContent(contentManager, assets);
 
 
-            string[] opts = { "Resolution!", "Music!", "Hero!", "Ok!"};
+            string[] opts = { "Resolution!", "Music!", "SFX!", "Hero!", "Ok!"};
             EventHandler[] handlers = { new EventHandler(SelectResolutionEvent), new EventHandler(SelectMusicEvent),
+                                          new EventHandler(SelectSFXEvent),
                                           new EventHandler(SelectHeroEvent), new EventHandler(SelectConfirmEvent)};
             mMainMenu.LoadContent(contentManager, opts, handlers);
             mMainMenu.SetBGColors(Gradients.GoldGradient);
@@ -61,6 +64,10 @@ namespace Climb
             EventHandler[] handlers2 = { new EventHandler(SelectMusicNoneEvent), new EventHandler(SelectMusicPunkEvent),
                                           new EventHandler(SelectMusicChillEvent) };
             mMusicMenu.LoadContent(contentManager, opts2, handlers2);
+
+            string[] optsSFX = { "Enabled", "Disabled" };
+            EventHandler[] handlersSFX = { new EventHandler(SelectSFXEnabledEvent), new EventHandler(SelectSFXDisabledEvent) };
+            mSFXMenu.LoadContent(contentManager, optsSFX, handlersSFX);
 
 
             string[] opts3 = { "Barry!", "Seamus'San!" };
@@ -129,6 +136,11 @@ namespace Climb
             return;
         }
 
+        public void SelectSFXEvent(object o, EventArgs e)
+        {
+            mCurrentMenu = mSFXMenu;
+        }
+
         public void SelectHeroEvent(object o, EventArgs e)
         {
             mHeroMenu.TransitionEnter.Start();
@@ -155,6 +167,7 @@ namespace Climb
         {
             Options.CurrentMusicSelection = Options.MusicSelection.PUNK;
             mCurrentMenu = mMainMenu;
+            OptionsChanged();            
             return;
         }
 
@@ -162,6 +175,7 @@ namespace Climb
         {
             Options.CurrentMusicSelection = Options.MusicSelection.CHILL;
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
 
@@ -169,8 +183,29 @@ namespace Climb
         {
             Options.CurrentMusicSelection = Options.MusicSelection.NONE;
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
+        #endregion
+
+        #region SFX Menu Events
+
+        public void SelectSFXEnabledEvent(object o, EventArgs e)
+        {
+            Options.IsSFXOn = true;
+            mCurrentMenu = mMainMenu;
+            OptionsChanged();
+            return;
+        }
+
+        public void SelectSFXDisabledEvent(object o, EventArgs e)
+        {
+            Options.IsSFXOn = false;
+            mCurrentMenu = mMainMenu;
+            OptionsChanged();
+            return;
+        }
+
         #endregion
 
         #region Character Menu Events
@@ -179,6 +214,7 @@ namespace Climb
         {
             Options.CurrentHeroSelection = Options.HeroSelection.BARRY;
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
 
@@ -186,6 +222,7 @@ namespace Climb
         {
             Options.CurrentHeroSelection = Options.HeroSelection.SEAMUS;
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
 
@@ -198,6 +235,7 @@ namespace Climb
             CUtil.SetResolutionAndWindowed(1600, 1200);
 
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
 
@@ -205,6 +243,7 @@ namespace Climb
         {
             CUtil.SetResolutionAndWindowed(1280, 1024);
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
 
@@ -214,6 +253,7 @@ namespace Climb
             CUtil.SetResolutionAndWindowed(1280, 720);
 
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
 
@@ -222,6 +262,7 @@ namespace Climb
             CUtil.SetResolutionAndWindowed(1024, 768);
 
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
         public void Select1024x576Event(object o, EventArgs e)
@@ -229,6 +270,7 @@ namespace Climb
             CUtil.SetResolutionAndWindowed(1024, 576);
 
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
 
@@ -238,6 +280,7 @@ namespace Climb
             CUtil.SetResolutionAndWindowed(800, 600);
             
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }
         public void Select800x480Event(object o, EventArgs e)
@@ -246,6 +289,7 @@ namespace Climb
             CUtil.SetResolutionAndWindowed(800, 480);
 
             mCurrentMenu = mMainMenu;
+            OptionsChanged();
             return;
         }        
 
@@ -272,22 +316,39 @@ namespace Climb
         public void EnableFullScreenEvent(object o, EventArgs e)
         {
             CUtil.EnableFullScreen();
+            OptionsChanged();
+            
         }
         public void EnableLetterBoxEvent(object o, EventArgs e)
         {
             CUtil.EnableLetterBox();
+            OptionsChanged();
+            
         }
 
 
         #endregion
 
-        // Just about any menu can use this event to back out
+        /// <summary>
+        /// Just about any menu can use this event to back out
+        /// </summary>
+        /// <param name="o"></param>
+        /// <param name="e"></param>
         public void BackOutEvent(object o, EventArgs e)
         {
             if (mCurrentMenu.Parent != null)
                 mCurrentMenu = mCurrentMenu.Parent;
 
             return;
+        }
+
+        /// <summary>
+        /// Save the new options to the config file.
+        /// I may move this to the getters of CUtil and Options
+        /// </summary>
+        private void OptionsChanged()
+        {
+            MySerializer.SaveConfig();
         }
     }
 }
