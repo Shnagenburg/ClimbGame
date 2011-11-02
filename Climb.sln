@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Climb", "Climb\Climb\Climb.csproj", "{C07A8D15-C103-4132-94B9-D8B7A8AA6913}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ClimbContent", "Climb\ClimbContent\ClimbContent.contentproj", "{122E911A-4287-4D30-8BE8-6EA0808543A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C07A8D15-C103-4132-94B9-D8B7A8AA6913}.Debug|x86.ActiveCfg = Debug|x86
+		{C07A8D15-C103-4132-94B9-D8B7A8AA6913}.Debug|x86.Build.0 = Debug|x86
+		{C07A8D15-C103-4132-94B9-D8B7A8AA6913}.Release|x86.ActiveCfg = Release|x86
+		{C07A8D15-C103-4132-94B9-D8B7A8AA6913}.Release|x86.Build.0 = Release|x86
+		{122E911A-4287-4D30-8BE8-6EA0808543A1}.Debug|x86.ActiveCfg = Debug|x86
+		{122E911A-4287-4D30-8BE8-6EA0808543A1}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

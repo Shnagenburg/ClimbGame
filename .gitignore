@@ -1,0 +1,10 @@
+
+*.suo
+/Climb/bin
+/Climb/obj
+*.user
+/Climb/Content/bin
+/Climb/Content/obj
+/Climb/ContentLibrary/bin
+/Climb/ContentLibrary/obj
+*.cachefile

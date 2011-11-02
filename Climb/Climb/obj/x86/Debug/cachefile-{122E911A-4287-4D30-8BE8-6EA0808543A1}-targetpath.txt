@@ -1,0 +1,31 @@
+Content\620x480\daysky.xnb
+Content\620x480\aquasky.xnb
+Content\620x480\dayxxxsky.xnb
+Content\620x480\dusksky.xnb
+Content\620x480\hellsky.xnb
+Content\620x480\nightsky.xnb
+Content\verdana.xnb
+Content\Sprites\pngimage.xnb
+Content\Sprites\climbtitle.xnb
+Content\Sprites\pixeldude.xnb
+Content\Sprites\block.xnb
+Content\Clouds\duskclouds.xnb
+Content\Backgrounds\duskbg.xnb
+Content\Sprites\block2.xnb
+Content\Sprites\ground.xnb
+Content\Clouds\cloudsspace.xnb
+Content\Backgrounds\space.xnb
+Content\Clouds\cloudsthree.xnb
+Content\Backgrounds\nightsky.xnb
+Content\Sprites\pixeldude2.xnb
+Content\Backgrounds\nightskyfix.xnb
+Content\Clouds\cloudssuper.xnb
+Content\Backgrounds\duskskysupertrans.xnb
+Content\Backgrounds\duskskysupertrans2.xnb
+Content\Backgrounds\dusksky1280x960.xnb
+Content\Sprites\smallcloud.xnb
+Content\Backgrounds\space_basic.xnb
+Content\Backgrounds\orange_basic.xnb
+Content\Audio\Sun and My Synth LOOPY.xnb
+Content\Audio\Sun and My Synth LOOPY.wma
+Content\Audio\jumpsound.xnb
