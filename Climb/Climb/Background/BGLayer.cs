@@ -93,17 +93,20 @@ namespace Climb
             sp1.Velocity.X = (layer_depht + 1) * -SCROLL_SPEED; // Negative is right to left
             
             Sprite sp2 = new Sprite();
-            sp2.LoadContent(contentManager, asset);
+            //sp2.LoadContent(contentManager, asset);
+            sp2.LoadContent(sp1.Texture);            
             sp2.Position.X = (sp2.Size.Width);
             sp2.Velocity.X = (layer_depht + 1) * -SCROLL_SPEED;
 
             Sprite sp3 = new Sprite();
-            sp3.LoadContent(contentManager, asset);
+            //sp3.LoadContent(contentManager, asset);
+            sp3.LoadContent(sp1.Texture); 
             sp3.Position.Y = (sp2.Size.Height);
             sp3.Velocity.X = (layer_depht + 1) * -SCROLL_SPEED;
 
             Sprite sp4 = new Sprite();
-            sp4.LoadContent(contentManager, asset);
+            //sp4.LoadContent(contentManager, asset);
+            sp4.LoadContent(sp1.Texture); 
             sp4.Position.X = (sp2.Size.Width);
             sp4.Position.Y = (sp2.Size.Height);
             sp4.Velocity.X = (layer_depht + 1) * -SCROLL_SPEED;
@@ -138,17 +141,20 @@ namespace Climb
             Xsp1.Velocity.X = (iLayerDepth + 1) * -SCROLL_SPEED; // Negative is right to left
 
             Sprite Xsp2 = new Sprite();
-            Xsp2.LoadContent(CUtil.ContentManager, asset);
+            //Xsp2.LoadContent(CUtil.ContentManager, asset);
+            Xsp2.LoadContent(Xsp1.Texture);
             Xsp2.Position.X = (Xsp2.Size.Width);
             Xsp2.Velocity.X = (iLayerDepth + 1) * -SCROLL_SPEED;
 
             Sprite Xsp3 = new Sprite();
-            Xsp3.LoadContent(CUtil.ContentManager, asset);
+            //Xsp3.LoadContent(CUtil.ContentManager, asset);
+            Xsp3.LoadContent(Xsp1.Texture);
             Xsp3.Position.Y = (Xsp2.Size.Height);
             Xsp3.Velocity.X = (iLayerDepth + 1) * -SCROLL_SPEED;
 
             Sprite Xsp4 = new Sprite();
-            Xsp4.LoadContent(CUtil.ContentManager, asset);
+            //Xsp4.LoadContent(CUtil.ContentManager, asset);
+            Xsp4.LoadContent(Xsp1.Texture);
             Xsp4.Position.X = (Xsp2.Size.Width);
             Xsp4.Position.Y = (Xsp2.Size.Height);
             Xsp4.Velocity.X = (iLayerDepth + 1) * -SCROLL_SPEED;

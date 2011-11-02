@@ -38,8 +38,14 @@ namespace Climb
         public Vector2 Position = new Vector2(0,0);
         public Vector2 OldPosition = new Vector2(0, 0);
         public Rectangle OldBox = new Rectangle();
+        
         //The texture object used when drawing the sprite
-        public Texture2D mSpriteTexture;
+        protected Texture2D mSpriteTexture;
+        public Texture2D Texture
+        {
+            get { return mSpriteTexture; }
+            set { mSpriteTexture = value; }
+        }
 
         //The asset name for the sprite's texture
         public string AssetName;
@@ -105,6 +111,18 @@ namespace Climb
             AssetName = theAssetName;
             Size = new Rectangle(0, 0, (int)(mSpriteTexture.Width * Scale), (int)(mSpriteTexture.Height * Scale) );
             BoundingBox = new Rectangle( (int)Position.X, (int)Position.Y, Size.Width, Size.Height);
+        }
+
+        /// <summary>
+        /// Load a texture used by another sprite to save memory.
+        /// </summary>
+        /// <param name="preLoadedTexture"></param>
+        public virtual void LoadContent(Texture2D preLoadedTexture)
+        {
+            mSpriteTexture = preLoadedTexture;
+            AssetName = preLoadedTexture.Name;
+            Size = new Rectangle(0, 0, (int)(mSpriteTexture.Width * Scale), (int)(mSpriteTexture.Height * Scale));
+            BoundingBox = new Rectangle((int)Position.X, (int)Position.Y, Size.Width, Size.Height);
         }
 
         /// <summary>

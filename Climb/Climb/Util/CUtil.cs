@@ -128,10 +128,15 @@ namespace Climb.Util
             Graphics.ApplyChanges();
         }
 
+        /// <summary>
+        /// The idea behind letterbox is that a monitor with a 4/3 aspect ratio would try
+        /// to keep the 16:9 ratio the game was designed for by having black space
+        /// above and below the game. Unforutnately its really unstable so REVISIT
+        /// </summary>
         public static void EnableLetterBox()
         {
             IsLetterBoxed = true;
-            SetResolution(SCREEN_WIDTH_PREFMAX, SCREEN_HEIGHT_PREFMAX);
+            SetResolution(SCREEN_WIDTH_PREFMAX, SCREEN_HEIGHT_PREFMAX );
             Graphics.IsFullScreen = true;
             Graphics.ApplyChanges();
         }

@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\pngimage.xnb</Output>
-      <Time>2011-06-03T00:43:58-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Sprites\pngimage.xnb</Output>
+      <Time>2011-11-02T13:27:53.6153219-04:00</Time>
     </Item>
     <Item>
       <Source>Sprites\climbtitle.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\climbtitle.xnb</Output>
-      <Time>2011-06-03T01:00:46-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Sprites\climbtitle.xnb</Output>
+      <Time>2011-11-02T13:27:53.5841218-04:00</Time>
     </Item>
     <Item>
       <Source>Sprites\pixeldude.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\pixeldude.xnb</Output>
-      <Time>2011-06-05T01:09:28-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Sprites\pixeldude.xnb</Output>
+      <Time>2011-11-02T13:27:53.6153219-04:00</Time>
     </Item>
     <Item>
       <Source>Sprites\block.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\block.xnb</Output>
-      <Time>2011-06-05T01:24:56-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Sprites\block.xnb</Output>
+      <Time>2011-11-02T13:27:53.3969212-04:00</Time>
     </Item>
     <Item>
       <Source>Clouds\duskclouds.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Clouds\duskclouds.xnb</Output>
-      <Time>2011-07-06T00:59:24-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Clouds\duskclouds.xnb</Output>
+      <Time>2011-11-02T13:27:53.3969212-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\duskbg.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskbg.xnb</Output>
-      <Time>2011-06-05T20:25:42-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskbg.xnb</Output>
+      <Time>2011-11-02T13:27:52.9445198-04:00</Time>
     </Item>
     <Item>
       <Source>Sprites\block2.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\block2.xnb</Output>
-      <Time>2011-07-06T00:50:12-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Sprites\block2.xnb</Output>
+      <Time>2011-11-02T13:27:53.5841218-04:00</Time>
     </Item>
     <Item>
       <Source>Sprites\ground.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\ground.xnb</Output>
-      <Time>2011-06-05T20:37:12-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Sprites\ground.xnb</Output>
+      <Time>2011-11-02T13:27:53.5997219-04:00</Time>
     </Item>
     <Item>
       <Source>Clouds\cloudsspace.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudsspace.xnb</Output>
-      <Time>2011-06-07T01:05:59-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudsspace.xnb</Output>
+      <Time>2011-11-02T13:27:53.2565208-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\space.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\space.xnb</Output>
-      <Time>2011-06-07T01:07:40-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\space.xnb</Output>
+      <Time>2011-11-02T13:27:53.0693202-04:00</Time>
     </Item>
     <Item>
       <Source>Clouds\cloudsthree.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudsthree.xnb</Output>
-      <Time>2011-06-07T01:11:13-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudsthree.xnb</Output>
+      <Time>2011-11-02T13:27:53.3657211-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\nightsky.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\nightsky.xnb</Output>
-      <Time>2011-06-08T01:02:41-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\nightsky.xnb</Output>
+      <Time>2011-11-02T13:27:53.0537201-04:00</Time>
     </Item>
     <Item>
       <Source>Sprites\pixeldude2.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\pixeldude2.xnb</Output>
-      <Time>2011-06-09T00:25:30-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Sprites\pixeldude2.xnb</Output>
+      <Time>2011-11-02T13:27:53.6153219-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\nightskyfix.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\nightskyfix.xnb</Output>
-      <Time>2011-06-30T23:37:15-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\nightskyfix.xnb</Output>
+      <Time>2011-11-02T13:27:53.0693202-04:00</Time>
     </Item>
     <Item>
       <Source>620x480\daysky.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\daysky.xnb</Output>
-      <Time>2011-07-06T00:23:04-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\620x480\daysky.xnb</Output>
+      <Time>2011-11-02T13:27:51.6029155-04:00</Time>
     </Item>
     <Item>
       <Source>620x480\aquasky.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\aquasky.xnb</Output>
-      <Time>2011-07-05T23:04:27-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\620x480\aquasky.xnb</Output>
+      <Time>2011-11-02T13:27:51.6029155-04:00</Time>
     </Item>
     <Item>
       <Source>620x480\dayxxxsky.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\dayxxxsky.xnb</Output>
-      <Time>2011-07-05T23:04:27-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\620x480\dayxxxsky.xnb</Output>
+      <Time>2011-11-02T13:27:51.6185156-04:00</Time>
     </Item>
     <Item>
       <Source>620x480\dusksky.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\dusksky.xnb</Output>
-      <Time>2011-07-05T23:04:27-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\620x480\dusksky.xnb</Output>
+      <Time>2011-11-02T13:27:51.6185156-04:00</Time>
     </Item>
     <Item>
       <Source>620x480\hellsky.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\hellsky.xnb</Output>
-      <Time>2011-07-05T23:04:27-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\620x480\hellsky.xnb</Output>
+      <Time>2011-11-02T13:27:51.6185156-04:00</Time>
     </Item>
     <Item>
       <Source>620x480\nightsky.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\620x480\nightsky.xnb</Output>
-      <Time>2011-07-05T23:04:27-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\620x480\nightsky.xnb</Output>
+      <Time>2011-11-02T13:27:52.8509195-04:00</Time>
     </Item>
     <Item>
       <Source>Clouds\cloudssuper.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudssuper.xnb</Output>
-      <Time>2011-07-06T23:43:14-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Clouds\cloudssuper.xnb</Output>
+      <Time>2011-11-02T13:27:53.2565208-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\duskskysupertrans.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskskysupertrans.xnb</Output>
-      <Time>2011-07-07T00:22:49-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskskysupertrans.xnb</Output>
+      <Time>2011-11-02T13:27:53.0381201-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\duskskysupertrans2.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskskysupertrans2.xnb</Output>
-      <Time>2011-07-07T00:22:49-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\duskskysupertrans2.xnb</Output>
+      <Time>2011-11-02T13:27:53.0537201-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\dusksky1280x960.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\dusksky1280x960.xnb</Output>
-      <Time>2011-07-09T13:00:15-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\dusksky1280x960.xnb</Output>
+      <Time>2011-11-02T13:27:52.9913199-04:00</Time>
     </Item>
     <Item>
       <Source>Sprites\smallcloud.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Sprites\smallcloud.xnb</Output>
-      <Time>2011-11-01T22:49:21.0787144-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Sprites\smallcloud.xnb</Output>
+      <Time>2011-11-02T13:27:53.6153219-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\space_basic.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\space_basic.xnb</Output>
-      <Time>2011-11-02T01:34:16.5547032-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\space_basic.xnb</Output>
+      <Time>2011-11-02T13:27:53.0693202-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\orange_basic.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Backgrounds\orange_basic.xnb</Output>
-      <Time>2011-11-02T01:50:01.7727666-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Backgrounds\orange_basic.xnb</Output>
+      <Time>2011-11-02T13:27:53.0693202-04:00</Time>
     </Item>
     <Item>
       <Source>verdana.spritefont</Source>
@@ -250,8 +250,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\verdana.xnb</Output>
-      <Time>2011-07-12T00:48:32-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\verdana.xnb</Output>
+      <Time>2011-11-02T13:27:53.7401223-04:00</Time>
     </Item>
     <Item>
       <Source>Audio\Sun and My Synth LOOPY.mp3</Source>
@@ -259,9 +259,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Audio\Sun and My Synth LOOPY.xnb</Output>
-      <Extra>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Audio\Sun and My Synth LOOPY.wma</Extra>
-      <Time>2011-11-02T01:53:54.258064-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Audio\Sun and My Synth LOOPY.xnb</Output>
+      <Extra>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Audio\Sun and My Synth LOOPY.wma</Extra>
+      <Time>2011-11-02T13:27:52.9133197-04:00</Time>
     </Item>
     <Item>
       <Source>Audio\jumpsound.wav</Source>
@@ -269,8 +269,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\Audio\jumpsound.xnb</Output>
-      <Time>2011-11-02T02:01:44.4629582-04:00</Time>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\Audio\jumpsound.xnb</Output>
+      <Time>2011-11-02T13:27:52.9289197-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -278,10 +278,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\ClimbContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\ClimbContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Climb\Climb\Climb\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\ClimbContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\ClimbContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\ClimbGame\Climb\Climb\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -310,7 +310,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-07-21T23:20:04.9588141-04:00</Value>
+        <Value>2011-09-07T11:42:43.9310435-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
